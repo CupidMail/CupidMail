@@ -5,7 +5,7 @@
 
     /* Colors and background */
     background-color: var(--bg1);
-    background-image: url("/docs/assets/imgs/heroBlur.jpg");
+    background-image: url("imgs/heroBlur.jpg");
     background-size: cover;
     background-position: center;
 
