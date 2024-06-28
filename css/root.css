@@ -1,0 +1,31 @@
+:root {
+    /* Color Scheme */
+    /* Background */
+    --bg0:   #fcebff;
+    --bg1:   #faf9ff;
+
+    /* Foreground */
+    --fg0:    #ffffff;
+    --fg1:    #808080;
+
+    /* Anchor */
+    --a:     #ffffff;
+    --a1:    #ffc5c5;
+
+    /* Alternative */
+    --alt0:   #f0808c;
+    --alt1:   #ffc1cc;
+
+    --success:#c6f4d6;
+    --error:  #ffc080;
+
+    /* Fonts */
+    --font: 'Roboto', sans-serif;
+    --cursive-font: 'Sacramento', cursive;
+
+    /* Etc vars */
+    --shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+    --border-radius: 10px;
+    --transition: all 0.2s ease-in-out;
+}
+  

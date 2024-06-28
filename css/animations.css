@@ -1,0 +1,36 @@
+@keyframes popUpDropDownMenu {
+    /* Had to move it slightly to the left because, for some reason, it is not centered */
+    0% {
+        transform: scale(0.5) translateX(-50%);
+    }
+    100% {
+        transform: scale(1) translateX(-50%);
+    }
+}
+
+@keyframes popDownDropDownMenu {
+    0% {
+        transform: scale(1) translateX(-50%);
+    }
+    100% {
+        transform: scale(0.5) translateX(-50%);
+    }
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes shrink {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

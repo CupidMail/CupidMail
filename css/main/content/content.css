@@ -1,0 +1,94 @@
+.content {
+    /* Layout */
+    margin: 1% 2% 1% 2% ; 
+    padding: 10px;
+
+    /* Colors and background */
+    background-color: var(--bg1);
+    background-image: url("/css/main/content/img/heroBlur.jpg");
+    background-size: cover;
+    background-position: center;
+
+    background-color: rgba(0,0,0,0.2);
+
+    /* Typography */
+    text-align: center;
+
+    /* Shape */
+    border: 4px solid  var(--fg0);
+    border-radius: var(--border-radius);
+
+    opacity: 0.8;
+}
+
+.content .main {
+    display: inline-block;
+    background-color: var(--bg0);
+    border-radius: var(--border-radius);
+    padding: 1%;
+    margin: 1% 3%;
+    box-shadow: var(--shadow);
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+    color: var(--alt1);
+    margin: 0;
+}
+
+.content p, li {
+    color: var(--fg1);
+    margin: 0;
+}
+
+.content .services h2 {
+    background-color: var(--bg0);
+    border-radius: var(--border-radius);
+    width: fit-content;
+    padding: 10px;
+    margin: 10px auto;
+    margin-bottom: 0;
+    box-shadow: var(--shadow);
+
+    max-width: 350px;
+}
+
+.content .services .srvAbt {
+    display: block;
+    background-color: var(--bg0);
+    border-radius: var(--border-radius);
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: var(--shadow);
+
+    max-width: 350px;
+}
+
+.content .services button {
+    background-color: var(--alt0);
+    color: var(--fg0);
+    border: none;
+    border-radius: var(--border-radius);
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.content .services button:hover {
+    background-color: var(--a1);
+    animation: grow 0.2s forwards;
+    transition: var(--transition);
+}
+
+.content .services button:not(:hover) {
+    animation: shrink 0.2s forwards;
+}
+
+.content .services button:active {
+    background-color: var(--alt0);
+}
+
+.footer {
+    margin-top: 3%;
+    text-align: center;
+    color: var(--a);
+}

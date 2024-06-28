@@ -1,0 +1,69 @@
+.topbar h1 {
+    font: var(--cursive-font);
+    font-size: calc(20px + 2vw);
+    margin: 0;
+    text-align: center;
+}
+
+.topnav {
+    text-align: center;
+}
+
+.topnav li, a {
+    display: inline-block;   
+    position: relative;
+    color: var(--a);
+    cursor: pointer;
+    transition: var(--transition);
+    padding: 0 calc(1px + 1vw);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.topnav a:hover {
+    color: var(--alt0);
+}
+
+/* Dropdown menu */
+.topnav li ul {
+
+    /* hide the dropdown menu */
+    display: none;
+
+    /* position and style the dropdown menu */
+    position: absolute;
+    background-color: var(--alt1);
+    box-shadow: var(--shadow);
+
+    min-width: 80px;
+
+    border-radius: var(--border-radius);
+    z-index: 1;
+
+    /* center the dropdown menu */
+    left: 50%;
+    top: 15%;
+    transform: translateX(-50%);
+
+    /* style the links inside the dropdown menu */
+    text-align: center;
+    padding: 0;
+
+    /* animate the dropdown menu */
+    animation-name: popUpDropDownMenu;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+.topnav li ul a {
+    padding: 0px 3px;
+    padding-top: 3px;
+}
+
+.topnav li:hover > ul {
+    display: block;
+}
+
+.topnav li:not(:hover) > ul {
+    animation: popDownDropDownMenu 0.2s forwards;
+}
